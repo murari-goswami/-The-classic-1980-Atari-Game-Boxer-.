@@ -23,9 +23,7 @@ def some_random_games_first():
         env.reset()
         # this is each frame, up to 200...but we wont make it that far.
         for t in range(2000):
-            # This will display the environment
-            # Only display if you really want to see it.
-            # Takes much longer to display it.
+           
             env.render()
             
             # This will just create a sample action in any environment.
